@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "saikiran"]
+	url = https://github.com/Saikiran-Muvva123/MyRepositoryFirstSample.git
+	fetch = +refs/heads/*:refs/remotes/saikiran/*
+[remote "origin"]
+	url = https://github.com/Saikiran-Muvva123/MyRepositoryFirstSample.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
